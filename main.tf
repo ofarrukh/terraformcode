@@ -1,4 +1,4 @@
-
+# Changes to the code by Nabeegh
 
 resource "aws_instance" "Myec2" {
   ami               = data.aws_ami.amazon-linux-2.id
