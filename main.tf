@@ -1,4 +1,5 @@
 # Changes to the code by Nabeegh and Omer
+# Adding new changes for feature branch
 
 resource "aws_instance" "Myec2" {
   ami               = data.aws_ami.amazon-linux-2.id
